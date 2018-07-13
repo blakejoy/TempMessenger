@@ -1,0 +1,8 @@
+AMQP_URI: 'pyamqp://guest:guest@localhost'
+rpc_exchange: 'nameko-rpc'
+REDIS_URL: 'redis://localhost:6379/0'
+DB_URIS:
+  user_service:Base:
+    "postgresql+psycopg2://postgres:secret@localhost/users?client_encoding=utf8"
+
+FLASK_SECRET_KEY: 'my-super-secret-key'
