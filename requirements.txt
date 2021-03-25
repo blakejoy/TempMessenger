@@ -28,7 +28,7 @@ py==1.5.4
 pycares==2.3.0
 pycparser==2.18
 pytest==3.6.3
-PyYAML==3.13
+PyYAML==5.4
 redis==2.10.6
 requests==2.19.1
 six==1.11.0
